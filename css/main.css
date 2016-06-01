@@ -1,0 +1,169 @@
+/*================================================= General ==========================================================*/
+.top_bar_logo_link {
+  padding: 0 !important;
+  outline: none; }
+
+.thumbnail_for_post_list {
+  float: left;
+  width: 100%;
+  max-width: 170px;
+  margin-right: 15px;
+  margin-bottom: 10px; }
+
+.thumbnail_img_for_posts_single_page {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px; }
+
+/*========================================== Margins and paddings ====================================================*/
+/*======== Percentage =========*/
+.pb_3per {
+  padding-bottom: 3%; }
+
+.pt_3per {
+  padding-top: 3%; }
+
+.mt_3per {
+  margin-top: 3%; }
+
+/*============= Pixels ========*/
+.pb_30 {
+  padding-bottom: 30px; }
+
+.pt_30 {
+  padding-top: 30px; }
+
+.mt_20 {
+  margin-top: 20px; }
+
+/*======================================== Custom Foundation styles ==================================================*/
+.top-bar {
+  background-color: #424242 !important;
+  color: white !important; }
+  .top-bar ul {
+    background-color: #424242 !important; }
+    .top-bar ul li:hover {
+      background-color: black !important; }
+    .top-bar ul li a {
+      color: white !important; }
+  .top-bar .top-bar-right .menu .jssocials-shares {
+    margin: 0 !important; }
+    .top-bar .top-bar-right .menu .jssocials-shares .jssocials-share a {
+      font-size: 12px; }
+  .top-bar .top-bar-right .menu li:hover {
+    background-color: transparent !important; }
+
+.title-bar {
+  background-color: #212121 !important; }
+
+.small_hr_for_below_md {
+  display: none; }
+
+/*================================================== Footer ==========================================================*/
+.footer_section {
+  margin-bottom: 30px; }
+
+.my_footer {
+  background-color: #424242;
+  color: #EEEEEE;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.social_icons_wrapper {
+  text-align: center; }
+  .social_icons_wrapper ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+    .social_icons_wrapper ul li {
+      display: inline-block; }
+      .social_icons_wrapper ul li a {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        padding: 20px 25px;
+        color: white;
+        opacity: 0.6; }
+        .social_icons_wrapper ul li a:hover {
+          opacity: 1; }
+
+#nav {
+  width: 750px;
+  margin: 0 auto;
+  list-style: none; }
+
+#nav li {
+  float: left; }
+
+#nav a {
+  display: block;
+  text-align: center;
+  width: 150px;
+  /* fixed width */
+  text-decoration: none; }
+
+.footer_link_list, #my-sidebar-footer ul {
+  list-style: none;
+  margin: 0; }
+  .footer_link_list a, #my-sidebar-footer ul a {
+    color: #EEEEEE; }
+    .footer_link_list a:hover, #my-sidebar-footer ul a:hover {
+      color: #2199e8; }
+
+.bottom_small_text_wrapper .bottom_small_text {
+  font-size: 12px;
+  float: right;
+  color: white; }
+  .bottom_small_text_wrapper .bottom_small_text:hover {
+    color: #2199e8; }
+
+/*================================================= My main sidebar ==================================================*/
+.my_main_sidebar {
+  padding-top: 70px; }
+
+.sidebar_widget {
+  margin-bottom: 20px; }
+
+/*================================================ Contact form ======================================================*/
+.errors_panel {
+  background-color: #EEEEEE;
+  padding: 30px;
+  margin-bottom: 20px; }
+
+.thanks_panel {
+  background-color: #C5E1A5;
+  padding: 30px;
+  margin-bottom: 20px; }
+
+/*============================================== Media Queries =======================================================*/
+@media only screen and (max-width: 767px) {
+  .bottom_small_text_wrapper {
+    text-align: center; }
+    .bottom_small_text_wrapper .bottom_small_text {
+      float: none; } }
+@media only screen and (max-width: 639px) {
+  .my_main_sidebar {
+    padding-top: 0; }
+
+  .small_hr_for_below_md {
+    display: block;
+    max-width: 100px;
+    margin: 0 auto 20px auto;
+    padding-top: 20px; }
+
+  .social_icons_wrapper ul li a {
+    padding: 10px 15px; } }
+@media only screen and (max-width: 450px) {
+  .thumbnail_for_post_list {
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px; } }
+
+/*# sourceMappingURL=main.css.map */

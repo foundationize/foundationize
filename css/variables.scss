@@ -1,0 +1,62 @@
+// Colors
+$grey-50: #FAFAFA;
+$grey-100: #F5F5F5;
+$grey-200: #EEEEEE;
+$grey-300: #E0E0E0;
+$grey-400: #BDBDBD;
+$grey-500: #9E9E9E;
+$grey-600: #757575;
+$grey-700: #616161;
+$grey-800: #424242;
+$grey-900: #212121;
+
+// Color Pallette
+$color1: #882B38;
+$color1-50: #f5dfe2;
+$color1-100: #edc5cb;
+$color1-200: #d06b79;
+$color1-300: #c44456;
+$color1-400: #af3748;
+// Primary
+$color1-500: #a23343;
+$color1-600: #6e232d;
+$color1-700: #3b1318;
+
+
+$color2: #1b80a1;
+$color2-50: #e2f4fa;
+$color2-100: #c5e9f5;
+$color2-200: #9ad9ee;
+$color2-300: #6ec9e6;
+$color2-400: #43b8df;
+$color2-500: #23a2cc;
+// Primary
+$color2-600: #1b80a1;
+$color2-700: #166984;
+$color2-800: #0f4658;
+$color2-900: #0a2f3b;
+$color2-1000: #05181e;
+
+// Media Query ranges
+$above-768: "only screen and (min-width : 768px)" !default;
+
+$down-of-1660: "only screen and (max-width : 1660px)" !default;
+$down-of-1600: "only screen and (max-width : 1600px)" !default;
+$down-of-1400: "only screen and (max-width : 1400px)" !default;
+$down-of-1300: "only screen and (max-width : 1300px)" !default;
+$down-of-1270: "only screen and (max-width : 1270px)" !default;
+$below-1199: "only screen and (max-width : 1199px)" !default;
+$down-of-1100: "only screen and (max-width : 1100px)" !default;
+$down-of-1000: "only screen and (max-width : 1000px)" !default;
+$down-of-995: "only screen and (max-width : 995px)" !default;
+$below-993: "only screen and (max-width : 993px)" !default;
+$below-991: "only screen and (max-width : 991px)" !default;
+$down-of-782: "only screen and (max-width : 782px)" !default;
+$below-767: "only screen and (max-width : 767px)" !default;
+$below-639: "only screen and (max-width : 639px)" !default;
+$down-of-600: "only screen and (max-width : 600px)" !default;
+$down-of-530: "only screen and (max-width : 530px)" !default;
+$below-450: "only screen and (max-width : 450px)" !default;
+$down-of-400: "only screen and (max-width : 400px)" !default;
+$down-of-362: "only screen and (max-width : 362px)" !default;
+$down-of-350: "only screen and (max-width : 350px)" !default;
