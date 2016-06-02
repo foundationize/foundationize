@@ -75,7 +75,7 @@ add_action('init', 'default_nav');
 
 /*================================================= Create default pages =========================================*/
 function default_pages() {
-    $default_home_page_name = 'Foundationize!';
+    $default_home_page_name = 'Foundationize';
     $default_posts_page_name = 'Posts';
     if (isset($_GET['activated']) && is_admin()) {
         $page_home_title = $default_home_page_name;
@@ -96,11 +96,11 @@ function default_pages() {
         <p>Et dicit suscipiantur nec. Vero erant simul ius ei, et enim invidunt mel. Ne percipit necessitatibus nam. Mei in ceteros omittam.</p>[my_contact_form]';
         $page_home_content = '[div class=\'callout secondary\']
 
-Welcome to this demo of the <a href="http://www.yiiframework.com/doc-2.0/guide-index.html" target="_blank">Yii2 PHP framework</a>, pre-configured with <a href="http://foundation.zurb.com/" target="_blank">Foundation 6</a>.
+Welcome to the Foundationize WordPress Starter theme featuring <a href="http://foundation.zurb.com/" target="_blank">Foundation 6</a>.
 
-To get started with your own foundationized Yii2 project, please see the <a href="http://foundationize.com/#yii2" target="_blank">Yii2 + Foundation installation</a> instructions.
+For more info on configurations, please see the <a href="http://foundationize.com/wordpress" target="_blank">Foundationize WordPress theme homepage</a>.
 
-No need to install and configure extensions, this version of Yii2 is pre-configured and ready to roll with Foundation 6.
+
 
 [/div]
 
